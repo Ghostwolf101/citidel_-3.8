@@ -1,0 +1,17 @@
+cat
+echo
+grep
+awk
+sed
+jq
+sha256sum
+date
+cut
+head
+tail
+tr
+wc
+true
+false
+printf
+

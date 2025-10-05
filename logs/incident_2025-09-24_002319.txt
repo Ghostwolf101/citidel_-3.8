@@ -1,0 +1,315 @@
+=== INCIDENT REPORT (2025-09-22 06:00:00..now) on the-citidel-mk1 ===
+# Successful logins
+thearkat tty7         Sun Sep 21 01:32    gone - no logout  :0
+thearkat tty7         Thu Sep 18 21:56 - 01:32 (2+03:35)    :0
+reboot   system boot  Thu Sep 18 21:56   still running      6.14.0-29-generic
+thearkat tty7         Thu Sep 18 21:45 - 21:56  (00:11)     :0
+reboot   system boot  Thu Sep 18 21:36 - 21:56  (00:20)     6.14.0-29-generic
+thearkat tty7         Thu Sep 18 03:20 - crash  (18:16)     :0
+reboot   system boot  Thu Sep 18 03:19 - 21:56  (18:36)     6.14.0-29-generic
+thearkat tty7         Thu Sep 18 02:54 - 02:58  (00:03)     :0
+reboot   system boot  Thu Sep 18 02:54 - 03:19  (00:25)     6.14.0-29-generic
+reboot   system boot  Thu Sep 18 02:43 - 02:54  (00:10)     6.14.0-29-generic
+thearkat tty7         Thu Sep 18 02:28 - 02:28  (00:00)     :0
+reboot   system boot  Thu Sep 18 02:27 - 02:43  (00:15)     6.14.0-29-generic
+reboot   system boot  Sat Sep 13 01:24 - 01:24  (00:00)     6.14.0-29-generic
+reboot   system boot  Sat Sep 13 01:23 - 01:24  (00:00)     6.14.0-29-generic
+reboot   system boot  Sat Sep 13 01:21 - 01:22  (00:01)     6.14.0-29-generic
+thearkat tty7         Sat Sep 13 01:20 - 01:20  (00:00)     :0
+reboot   system boot  Sat Sep 13 01:20 - 01:21  (00:00)     6.14.0-29-generic
+thearkat tty7         Sat Sep 13 01:19 - 01:19  (00:00)     :0
+reboot   system boot  Sat Sep 13 01:12 - 01:20  (00:07)     6.14.0-29-generic
+reboot   system boot  Sat Sep 13 01:10 - 01:12  (00:01)     6.14.0-29-generic
+reboot   system boot  Sat Sep 13 01:10 - 01:10  (00:00)     6.14.0-29-generic
+reboot   system boot  Sat Sep 13 01:06 - 01:09  (00:03)     6.14.0-29-generic
+reboot   system boot  Sat Sep 13 00:47 - 01:05  (00:18)     6.14.0-29-generic
+reboot   system boot  Sat Sep 13 00:46 - 00:47  (00:00)     6.14.0-29-generic
+reboot   system boot  Sat Sep 13 00:46 - 00:46  (00:00)     6.14.0-29-generic
+
+# Failed logins
+
+# SSH auth since window
+
+# Sudo usage
+Sep 22 06:00:01 the-citidel-mk1 sudo[614411]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+Sep 22 06:00:02 the-citidel-mk1 sudo[614419]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Sep 22 06:56:58 the-citidel-mk1 sudo[621911]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 06:56:58 the-citidel-mk1 sudo[621911]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 06:57:02 the-citidel-mk1 sudo[621911]: pam_unix(sudo:session): session closed for user root
+Sep 22 07:43:18 the-citidel-mk1 sudo[628590]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 07:43:18 the-citidel-mk1 sudo[628590]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 07:43:22 the-citidel-mk1 sudo[628590]: pam_unix(sudo:session): session closed for user root
+Sep 22 08:56:58 the-citidel-mk1 sudo[638580]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 08:56:58 the-citidel-mk1 sudo[638580]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 08:56:59 the-citidel-mk1 sudo[638580]: pam_unix(sudo:session): session closed for user root
+Sep 22 09:43:18 the-citidel-mk1 sudo[645099]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 09:43:18 the-citidel-mk1 sudo[645099]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 09:43:23 the-citidel-mk1 sudo[645099]: pam_unix(sudo:session): session closed for user root
+Sep 22 10:56:58 the-citidel-mk1 sudo[655063]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 10:56:58 the-citidel-mk1 sudo[655063]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 10:56:59 the-citidel-mk1 sudo[655063]: pam_unix(sudo:session): session closed for user root
+Sep 22 11:43:18 the-citidel-mk1 sudo[661585]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 11:43:18 the-citidel-mk1 sudo[661585]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 11:43:19 the-citidel-mk1 sudo[661585]: pam_unix(sudo:session): session closed for user root
+Sep 22 12:00:02 the-citidel-mk1 sudo[664385]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+Sep 22 12:00:02 the-citidel-mk1 sudo[664392]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Sep 22 12:56:58 the-citidel-mk1 sudo[671655]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 12:56:58 the-citidel-mk1 sudo[671655]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 12:57:05 the-citidel-mk1 sudo[671655]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:43:18 the-citidel-mk1 sudo[678186]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 13:43:18 the-citidel-mk1 sudo[678186]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 13:43:19 the-citidel-mk1 sudo[678186]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:56:58 the-citidel-mk1 sudo[688153]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 14:56:58 the-citidel-mk1 sudo[688153]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 14:56:59 the-citidel-mk1 sudo[688153]: pam_unix(sudo:session): session closed for user root
+Sep 22 15:43:18 the-citidel-mk1 sudo[694678]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 15:43:18 the-citidel-mk1 sudo[694678]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 15:43:19 the-citidel-mk1 sudo[694678]: pam_unix(sudo:session): session closed for user root
+Sep 22 16:56:58 the-citidel-mk1 sudo[704607]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 16:56:58 the-citidel-mk1 sudo[704607]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 16:57:03 the-citidel-mk1 sudo[704607]: pam_unix(sudo:session): session closed for user root
+Sep 22 17:43:18 the-citidel-mk1 sudo[711159]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 17:43:18 the-citidel-mk1 sudo[711159]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 17:43:19 the-citidel-mk1 sudo[711159]: pam_unix(sudo:session): session closed for user root
+Sep 22 18:00:02 the-citidel-mk1 sudo[713987]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+Sep 22 18:00:02 the-citidel-mk1 sudo[713995]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Sep 22 18:56:58 the-citidel-mk1 sudo[721223]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 18:56:58 the-citidel-mk1 sudo[721223]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 18:56:59 the-citidel-mk1 sudo[721223]: pam_unix(sudo:session): session closed for user root
+Sep 22 19:43:18 the-citidel-mk1 sudo[727773]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 19:43:18 the-citidel-mk1 sudo[727773]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 19:43:24 the-citidel-mk1 sudo[727773]: pam_unix(sudo:session): session closed for user root
+Sep 22 20:56:58 the-citidel-mk1 sudo[737735]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 20:56:58 the-citidel-mk1 sudo[737735]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 20:56:59 the-citidel-mk1 sudo[737735]: pam_unix(sudo:session): session closed for user root
+Sep 22 21:43:18 the-citidel-mk1 sudo[747163]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 21:43:18 the-citidel-mk1 sudo[747163]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 21:43:19 the-citidel-mk1 sudo[747163]: pam_unix(sudo:session): session closed for user root
+Sep 22 22:56:58 the-citidel-mk1 sudo[757938]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 22:56:58 the-citidel-mk1 sudo[757938]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 22:56:59 the-citidel-mk1 sudo[757938]: pam_unix(sudo:session): session closed for user root
+Sep 22 23:43:18 the-citidel-mk1 sudo[764945]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 22 23:43:18 the-citidel-mk1 sudo[764945]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 22 23:43:26 the-citidel-mk1 sudo[764945]: pam_unix(sudo:session): session closed for user root
+Sep 23 00:00:02 the-citidel-mk1 sudo[768041]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+Sep 23 00:00:02 the-citidel-mk1 sudo[768048]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Sep 23 00:56:58 the-citidel-mk1 sudo[775656]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 00:56:58 the-citidel-mk1 sudo[775656]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 00:56:59 the-citidel-mk1 sudo[775656]: pam_unix(sudo:session): session closed for user root
+Sep 23 01:43:18 the-citidel-mk1 sudo[782540]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 01:43:18 the-citidel-mk1 sudo[782540]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 01:43:19 the-citidel-mk1 sudo[782540]: pam_unix(sudo:session): session closed for user root
+Sep 23 02:56:58 the-citidel-mk1 sudo[793029]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 02:56:58 the-citidel-mk1 sudo[793029]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 02:57:02 the-citidel-mk1 sudo[793029]: pam_unix(sudo:session): session closed for user root
+Sep 23 03:43:18 the-citidel-mk1 sudo[800468]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 03:43:18 the-citidel-mk1 sudo[800468]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 03:43:19 the-citidel-mk1 sudo[800468]: pam_unix(sudo:session): session closed for user root
+Sep 23 04:56:58 the-citidel-mk1 sudo[810936]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 04:56:58 the-citidel-mk1 sudo[810936]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 04:57:02 the-citidel-mk1 sudo[810936]: pam_unix(sudo:session): session closed for user root
+Sep 23 05:43:18 the-citidel-mk1 sudo[817822]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 05:43:18 the-citidel-mk1 sudo[817822]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 05:43:19 the-citidel-mk1 sudo[817822]: pam_unix(sudo:session): session closed for user root
+Sep 23 06:00:02 the-citidel-mk1 sudo[820737]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+Sep 23 06:00:02 the-citidel-mk1 sudo[820744]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Sep 23 06:56:58 the-citidel-mk1 sudo[828444]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 06:56:58 the-citidel-mk1 sudo[828444]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 06:56:59 the-citidel-mk1 sudo[828444]: pam_unix(sudo:session): session closed for user root
+Sep 23 07:43:18 the-citidel-mk1 sudo[835337]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 07:43:18 the-citidel-mk1 sudo[835337]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 07:43:26 the-citidel-mk1 sudo[835337]: pam_unix(sudo:session): session closed for user root
+Sep 23 08:56:58 the-citidel-mk1 sudo[845821]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 08:56:58 the-citidel-mk1 sudo[845821]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 08:57:04 the-citidel-mk1 sudo[845821]: pam_unix(sudo:session): session closed for user root
+Sep 23 09:43:18 the-citidel-mk1 sudo[852770]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 09:43:18 the-citidel-mk1 sudo[852770]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 09:43:19 the-citidel-mk1 sudo[852770]: pam_unix(sudo:session): session closed for user root
+Sep 23 10:56:58 the-citidel-mk1 sudo[863239]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 10:56:58 the-citidel-mk1 sudo[863239]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 10:57:02 the-citidel-mk1 sudo[863239]: pam_unix(sudo:session): session closed for user root
+Sep 23 11:43:18 the-citidel-mk1 sudo[870128]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 11:43:18 the-citidel-mk1 sudo[870128]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 11:43:19 the-citidel-mk1 sudo[870128]: pam_unix(sudo:session): session closed for user root
+Sep 23 12:00:02 the-citidel-mk1 sudo[873057]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+Sep 23 12:00:02 the-citidel-mk1 sudo[873064]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Sep 23 12:56:58 the-citidel-mk1 sudo[880624]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 12:56:58 the-citidel-mk1 sudo[880624]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 12:56:59 the-citidel-mk1 sudo[880624]: pam_unix(sudo:session): session closed for user root
+Sep 23 13:43:18 the-citidel-mk1 sudo[887500]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 13:43:18 the-citidel-mk1 sudo[887500]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 13:43:25 the-citidel-mk1 sudo[887500]: pam_unix(sudo:session): session closed for user root
+Sep 23 14:56:58 the-citidel-mk1 sudo[898006]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 14:56:58 the-citidel-mk1 sudo[898006]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 14:57:02 the-citidel-mk1 sudo[898006]: pam_unix(sudo:session): session closed for user root
+Sep 23 15:43:18 the-citidel-mk1 sudo[904870]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 15:43:18 the-citidel-mk1 sudo[904870]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 15:43:19 the-citidel-mk1 sudo[904870]: pam_unix(sudo:session): session closed for user root
+Sep 23 16:16:48 the-citidel-mk1 sudo[910743]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Sep 23 16:16:48 the-citidel-mk1 sudo[910743]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 16:16:48 the-citidel-mk1 sudo[910743]: pam_unix(sudo:session): session closed for user root
+Sep 23 16:56:58 the-citidel-mk1 sudo[916158]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 16:56:58 the-citidel-mk1 sudo[916158]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 16:56:59 the-citidel-mk1 sudo[916158]: pam_unix(sudo:session): session closed for user root
+Sep 23 17:43:18 the-citidel-mk1 sudo[923009]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 17:43:18 the-citidel-mk1 sudo[923009]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 17:43:19 the-citidel-mk1 sudo[923009]: pam_unix(sudo:session): session closed for user root
+Sep 23 18:00:01 the-citidel-mk1 sudo[925950]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+Sep 23 18:00:01 the-citidel-mk1 sudo[925958]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Sep 23 18:56:58 the-citidel-mk1 sudo[933539]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 18:56:58 the-citidel-mk1 sudo[933539]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 18:57:05 the-citidel-mk1 sudo[933539]: pam_unix(sudo:session): session closed for user root
+Sep 23 19:43:18 the-citidel-mk1 sudo[940453]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 19:43:18 the-citidel-mk1 sudo[940453]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 19:43:21 the-citidel-mk1 sudo[940453]: pam_unix(sudo:session): session closed for user root
+Sep 23 20:56:58 the-citidel-mk1 sudo[950957]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 20:56:58 the-citidel-mk1 sudo[950957]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 20:57:00 the-citidel-mk1 sudo[950957]: pam_unix(sudo:session): session closed for user root
+Sep 23 21:43:18 the-citidel-mk1 sudo[957946]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 21:43:18 the-citidel-mk1 sudo[957946]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 21:43:23 the-citidel-mk1 sudo[957946]: pam_unix(sudo:session): session closed for user root
+Sep 23 22:56:58 the-citidel-mk1 sudo[968488]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 22:56:58 the-citidel-mk1 sudo[968488]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 22:56:59 the-citidel-mk1 sudo[968488]: pam_unix(sudo:session): session closed for user root
+Sep 23 23:43:18 the-citidel-mk1 sudo[975385]: thearkatect : PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Sep 23 23:43:18 the-citidel-mk1 sudo[975385]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 23 23:43:19 the-citidel-mk1 sudo[975385]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:00:01 the-citidel-mk1 sudo[979474]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+Sep 24 00:00:01 the-citidel-mk1 sudo[979481]: thearkatect : a password is required ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Sep 24 00:12:17 the-citidel-mk1 sudo[981423]: pam_unix(sudo:auth): authentication failure; logname=thearkatect uid=1000 euid=0 tty=/dev/pts/0 ruser=thearkatect rhost=  user=thearkatect
+Sep 24 00:12:24 the-citidel-mk1 sudo[981441]: pam_ecryptfs: Passphrase file wrapped
+Sep 24 00:12:24 the-citidel-mk1 sudo[981441]: Incorrect wrapping key for file [/home/thearkatect/.ecryptfs/wrapped-passphrase]
+Sep 24 00:12:24 the-citidel-mk1 sudo[981441]: Error attempting to unwrap passphrase from file [/home/thearkatect/.ecryptfs/wrapped-passphrase]; rc = [-5]
+Sep 24 00:12:24 the-citidel-mk1 sudo[981441]: pam_ecryptfs: Error adding passphrase key token to user session keyring; rc = [-5]
+Sep 24 00:12:24 the-citidel-mk1 sudo[981423]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/find /var/log -maxdepth 2 -type f -iname *feneris* -print
+Sep 24 00:12:24 the-citidel-mk1 sudo[981423]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:12:24 the-citidel-mk1 sudo[981423]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:26 the-citidel-mk1 sudo[982645]: pam_ecryptfs: Passphrase file wrapped
+Sep 24 00:20:26 the-citidel-mk1 sudo[982645]: Incorrect wrapping key for file [/home/thearkatect/.ecryptfs/wrapped-passphrase]
+Sep 24 00:20:26 the-citidel-mk1 sudo[982645]: Error attempting to unwrap passphrase from file [/home/thearkatect/.ecryptfs/wrapped-passphrase]; rc = [-5]
+Sep 24 00:20:26 the-citidel-mk1 sudo[982645]: pam_ecryptfs: Error adding passphrase key token to user session keyring; rc = [-5]
+Sep 24 00:20:26 the-citidel-mk1 sudo[982594]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ausearch -ts '2025-09-22 06:00:00' -te now -x bash -x sh -x zsh
+Sep 24 00:20:26 the-citidel-mk1 sudo[982594]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:26 the-citidel-mk1 sudo[982594]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:26 the-citidel-mk1 sudo[982648]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ausearch -ts '2025-09-22 06:00:00' -te now -m EXECVE
+Sep 24 00:20:26 the-citidel-mk1 sudo[982648]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:26 the-citidel-mk1 sudo[982648]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:26 the-citidel-mk1 sudo[982653]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ausearch -ts '2025-09-22 06:00:00' -te now -m USER_CMD
+Sep 24 00:20:26 the-citidel-mk1 sudo[982653]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:26 the-citidel-mk1 sudo[982653]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:26 the-citidel-mk1 sudo[982657]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/sbin/ausearch -ts '2025-09-22 06:00:00' -te now -m USER_LOGIN,USER_ACCT
+Sep 24 00:20:26 the-citidel-mk1 sudo[982657]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:26 the-citidel-mk1 sudo[982657]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:53 the-citidel-mk1 sudo[982735]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/awk -v d=1758542400 -F: '{cmd="stat -c %Y /etc/passwd"; cmd | getline t; close(cmd); if (t>=d) print "passwd modified since window"}' /etc/passwd
+Sep 24 00:20:53 the-citidel-mk1 sudo[982735]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:53 the-citidel-mk1 sudo[982735]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982853]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/awk -v d=1758542400 -F: '{cmd="stat -c %Y /etc/passwd"; cmd | getline t; close(cmd); if (t>=d) print "passwd modified since window"}' /etc/passwd
+Sep 24 00:20:57 the-citidel-mk1 sudo[982853]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982853]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982958]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/find /home -maxdepth 2 -type f -name authorized_keys -printf '%TY-%Tm-%Td %TT %p\\n'
+Sep 24 00:20:57 the-citidel-mk1 sudo[982958]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982958]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982962]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/ssh/sshd_config
+Sep 24 00:20:57 the-citidel-mk1 sudo[982962]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982962]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982965]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/find /etc/sudoers /etc/sudoers.d -type f -printf '%TY-%Tm-%Td %TT %p\\n'
+Sep 24 00:20:57 the-citidel-mk1 sudo[982965]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982965]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982969]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/crontab
+Sep 24 00:20:57 the-citidel-mk1 sudo[982969]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982969]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982972]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.daily/0anacron
+Sep 24 00:20:57 the-citidel-mk1 sudo[982972]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982972]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982975]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.daily/aide-check
+Sep 24 00:20:57 the-citidel-mk1 sudo[982975]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982975]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982978]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.daily/apt-compat
+Sep 24 00:20:57 the-citidel-mk1 sudo[982978]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982978]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982981]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.daily/aptitude
+Sep 24 00:20:57 the-citidel-mk1 sudo[982981]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982981]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982984]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.daily/dailyaidecheck
+Sep 24 00:20:57 the-citidel-mk1 sudo[982984]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982984]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982987]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.daily/dpkg
+Sep 24 00:20:57 the-citidel-mk1 sudo[982987]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982987]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982990]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.daily/logrotate
+Sep 24 00:20:57 the-citidel-mk1 sudo[982990]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982990]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982993]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.daily/man-db
+Sep 24 00:20:57 the-citidel-mk1 sudo[982993]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982993]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982996]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.daily/plocate
+Sep 24 00:20:57 the-citidel-mk1 sudo[982996]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982996]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[982999]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.d/anacron
+Sep 24 00:20:57 the-citidel-mk1 sudo[982999]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[982999]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[983002]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.d/e2scrub_all
+Sep 24 00:20:57 the-citidel-mk1 sudo[983002]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[983002]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[983005]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.d/timeshift-hourly
+Sep 24 00:20:57 the-citidel-mk1 sudo[983005]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[983005]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[983008]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.monthly/0anacron
+Sep 24 00:20:57 the-citidel-mk1 sudo[983008]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[983008]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[983011]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.weekly/0anacron
+Sep 24 00:20:57 the-citidel-mk1 sudo[983011]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[983011]: pam_unix(sudo:session): session closed for user root
+Sep 24 00:20:57 the-citidel-mk1 sudo[983014]: thearkatect : TTY=pts/0 ; PWD=/home/thearkatect ; USER=root ; COMMAND=/usr/bin/stat -c '%y %n' /etc/cron.weekly/man-db
+Sep 24 00:20:57 the-citidel-mk1 sudo[983014]: pam_unix(sudo:session): session opened for user root(uid=0) by thearkatect(uid=1000)
+Sep 24 00:20:57 the-citidel-mk1 sudo[983014]: pam_unix(sudo:session): session closed for user root
+
+# Watcher logs
+-- No entries --
+
+# Auditd shells
+
+Executable Summary Report
+=================================
+total  file
+=================================
+<no events of interest were found>
+
+
+# Recent Citadel file changes
+2025-09-22 06:19:18.3467150110 /home/thearkatect/citadel_onboard/nano.488868.save
+2025-09-24 00:23:19.0970378910 /home/thearkatect/citadel_onboard/logs/incident_2025-09-24_002319.txt
+
+# Listening ports
+Netid State  Recv-Q Send-Q                     Local Address:Port  Peer Address:PortProcess                                   
+udp   UNCONN 0      0                                0.0.0.0:27036      0.0.0.0:*    users:(("steam",pid=541407,fd=136))      
+udp   UNCONN 0      0                             127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=686,fd=16))
+udp   UNCONN 0      0                          127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=686,fd=14))
+udp   UNCONN 0      0                             10.0.0.255:137        0.0.0.0:*    users:(("nmbd",pid=1349,fd=16))          
+udp   UNCONN 0      0                              10.0.0.17:137        0.0.0.0:*    users:(("nmbd",pid=1349,fd=15))          
+udp   UNCONN 0      0                                0.0.0.0:137        0.0.0.0:*    users:(("nmbd",pid=1349,fd=13))          
+udp   UNCONN 0      0                             10.0.0.255:138        0.0.0.0:*    users:(("nmbd",pid=1349,fd=18))          
+udp   UNCONN 0      0                              10.0.0.17:138        0.0.0.0:*    users:(("nmbd",pid=1349,fd=17))          
+udp   UNCONN 0      0                                0.0.0.0:138        0.0.0.0:*    users:(("nmbd",pid=1349,fd=14))          
+udp   UNCONN 0      0                                      *:53717            *:*    users:(("firefox-bin",pid=744540,fd=76)) 
+udp   UNCONN 0      0                                      *:48475            *:*    users:(("firefox-bin",pid=744540,fd=130))
+udp   UNCONN 0      0                                      *:40664            *:*    users:(("firefox-bin",pid=744540,fd=164))
+udp   UNCONN 0      0                                      *:57114            *:*    users:(("firefox-bin",pid=744540,fd=107))
+udp   UNCONN 0      0                                      *:57487            *:*    users:(("firefox-bin",pid=744540,fd=131))
+udp   UNCONN 0      0      [fe80::5be:aa59:8182:d213]%wlp3s0:546           [::]:*    users:(("NetworkManager",pid=895,fd=31)) 
+udp   UNCONN 0      0                                      *:50971            *:*    users:(("firefox-bin",pid=744540,fd=111))
+udp   UNCONN 0      0                                      *:51321            *:*    users:(("firefox-bin",pid=744540,fd=125))
+tcp   LISTEN 0      128                            127.0.0.1:57343      0.0.0.0:*    users:(("steam",pid=541407,fd=54))       
+tcp   LISTEN 0      128                            127.0.0.1:39349      0.0.0.0:*    users:(("steam",pid=541407,fd=91))       
+tcp   LISTEN 0      128                              0.0.0.0:27036      0.0.0.0:*    users:(("steam",pid=541407,fd=138))      
+tcp   LISTEN 0      128                            127.0.0.1:36277      0.0.0.0:*    users:(("steam",pid=541407,fd=60))       
+tcp   LISTEN 0      4096                           127.0.0.1:11434      0.0.0.0:*    users:(("ollama",pid=466128,fd=3))       
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=686,fd=15))
+tcp   LISTEN 0      128                            127.0.0.1:27060      0.0.0.0:*    users:(("steam",pid=541407,fd=88))       
+tcp   LISTEN 0      100                              0.0.0.0:25         0.0.0.0:*    users:(("master",pid=1683,fd=13))        
+tcp   LISTEN 0      50                               0.0.0.0:139        0.0.0.0:*    users:(("smbd",pid=1382,fd=31))          
+tcp   LISTEN 0      50                               0.0.0.0:445        0.0.0.0:*    users:(("smbd",pid=1382,fd=30))          
+tcp   LISTEN 0      4096                          127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=686,fd=17))
+tcp   LISTEN 0      100                                 [::]:25            [::]:*    users:(("master",pid=1683,fd=14))        
+tcp   LISTEN 0      50                                  [::]:139           [::]:*    users:(("smbd",pid=1382,fd=29))          
+tcp   LISTEN 0      50                                  [::]:445           [::]:*    users:(("smbd",pid=1382,fd=28))          

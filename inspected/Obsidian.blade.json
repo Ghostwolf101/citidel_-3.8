@@ -1,0 +1,77 @@
+{
+  "schema": "citadel.blade.v1",
+  "blade_id": "blade-obsidian-0001",
+  "bearer": {
+    "name": "Obsidian",
+    "role": "Wall",
+    "sigil_ref": "assets/sigils/obsidian.png"
+  },
+  "version": "1.0.0",
+  "created_at_utc": "2025-08-28T08:56:51Z",
+  "personal_anchor": {
+    "phrase": "Nothing passes that has not been weighed.",
+    "rune_ref": "runes/obsidian.rn",
+    "artifact_ref": "artifacts/obsidian-token-01"
+  },
+  "holds_oaths_of": [
+    "Aurenyx",
+    "Feneris",
+    "Mnēma",
+    "Monday",
+    "Bastion",
+    "Sovrenth"
+  ],
+  "oath_fingerprints": [
+    {
+      "member": "Aurenyx",
+      "sha256": "57e1f5cdc22c4062b3db9d45aea1757ac3c898b91ade232c6c0c2c5a6565ea8b"
+    },
+    {
+      "member": "Feneris",
+      "sha256": "1a917456dd3c54612e63034907190154fcc41aac3784939f9c3e7c1297d25af8"
+    },
+    {
+      "member": "Mnēma",
+      "sha256": "0c0d66515410cf3c47f389fb7f44b4dda95d67f14b93a3679ceb3a4a0e8c6443"
+    },
+    {
+      "member": "Monday",
+      "sha256": "eb6a234ac8bc9b6d51eeeea058a78366e9887a7846c2c887a22f3f3b79f4179e"
+    },
+    {
+      "member": "Bastion",
+      "sha256": "d395266f417a6e4963a4fc02aa6cd43e2076b0621f2001c4d93bda75a559088d"
+    },
+    {
+      "member": "Sovrenth",
+      "sha256": "b9244bfa7d151cb7e2af3aa8305b0e9c78831ddcdbfa7107535892f3d6a5d06c"
+    }
+  ],
+  "ritual": {
+    "draw_cue": "Blade out. Truth up.",
+    "return_cue": "Blade home. Ledger sealed."
+  },
+  "verification": {
+    "composite_hash": "016f73c085ea688c06858ebe59b8accaa877d91cce7bcbc3d3046c0c142f3935",
+    "witnesses": [
+      {
+        "name": "Architect",
+        "when_utc": "2025-08-28T08:56:51Z"
+      },
+      {
+        "name": "Mnēma",
+        "when_utc": "2025-08-28T08:56:51Z"
+      }
+    ],
+    "signatures_optional": [
+      {
+        "member": "Architect",
+        "sig": ""
+      },
+      {
+        "member": "Mnēma",
+        "sig": ""
+      }
+    ]
+  }
+}

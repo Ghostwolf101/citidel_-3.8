@@ -1,0 +1,22 @@
+{
+  "schema": "citadel.blades.index.v1",
+  "version": "1.0.0",
+  "council": [
+    "Aurenyx",
+    "Feneris",
+    "Mnēma",
+    "Obsidian",
+    "Monday",
+    "Bastion",
+    "Sovrenth"
+  ],
+  "quorum_rule": {
+    "min_signers": 3,
+    "note": "Architect + any 2 Council for unlock/transfer"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "note": "All blade composite_hash fields use SHA256 of canonical JSON sans composite_hash"
+  },
+  "created_at_utc": "2025-08-28T08:56:51Z"
+}
